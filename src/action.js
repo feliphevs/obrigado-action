@@ -13,7 +13,7 @@ async function run (){
         ...context.repo,
         issue_number: pull_request.number,
         body: 'Obrigado por enviar a pull request! Nós tentaremos revisá-la o mais breve possível.'
-    })
+    });
 }
 
 run();
