@@ -8456,7 +8456,7 @@ async function run() {
     await octokit.issues.createComment({
         ...context.repo,
         issue_number: pull_request.number,
-        body: 'Obrigado por enviar a pull request! Nós tentaremos revisá-la o mais breve possível.'
+        body: 'Thank you for submitting a pull request! We will try to review this as soon as we can.'
     });
 }
 
