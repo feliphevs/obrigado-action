@@ -8445,7 +8445,7 @@ var __webpack_exports__ = {};
 const core = __nccwpck_require__(2186);
 const github = __nccwpck_require__ (5438);
 
-async function run (){
+async function run() {
     const GITHUB_TOKEN = core.getInput('GITHUB_TOKEN');
 
     const octokit = github.getOctokit(GITHUB_TOKEN);
@@ -8457,7 +8457,7 @@ async function run (){
         ...context.repo,
         issue_number: pull_request.number,
         body: 'Obrigado por enviar a pull request! Nós tentaremos revisá-la o mais breve possível.'
-    })
+    });
 }
 
 run();
