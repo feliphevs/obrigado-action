@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/feliphevs/obrigado-action/issues"
   },
-  "homepage": "https://github.com/feliphevs/obrigado-action#readme"
+  "homepage": "https://github.com/feliphevs/obrigado-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@vercel/ncc": "^0.33.1"
+  }
 }
